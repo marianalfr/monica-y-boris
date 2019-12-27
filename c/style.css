@@ -1,0 +1,1461 @@
+/*Título Mónica&Boris*/
+@font-face
+{
+font-family: Titulo;
+src: url('Tit.otf');
+	 /*url('Tit.eot'); /*IE9*/
+font-style: normal;
+font-weight: normal !important;
+}
+
+/*Regular (acceder...)*/
+@font-face
+{
+font-family: Regular;
+src: url('Reg.otf');
+	 /*url('Reg.eot'); /*IE9*/
+font-style: normal;
+font-weight: normal !important;
+}
+
+/*Regular cursiva (18, Mon, Bo...)*/
+@font-face
+{
+font-family: Cursiva;
+src: url('It.otf');
+	 /*url('It.eot'); /*IE9*/
+font-style: normal;
+font-weight: normal !important;
+}
+
+/*Negrita Cursiva (calles)*/
+@font-face
+{
+font-family: NegritaCursiva;
+src: url('BoIt.otf');
+	 /*url('BoIt.eot'); /*IE9*/
+font-style: normal;
+font-weight: normal !important;
+}
+
+a:link {color:#63655D; text-decoration: none;}
+a:visited {color:#63655D; text-decoration: none;}
+a:hover {color:#c5c7b9; text-decoration: none;}
+a:active {color:#63655D; text-decoration: none}
+
+h1 a:link {color:#251D1F; text-decoration: none;}
+h1 a:visited {color:#251D1F; text-decoration: none;}
+h1 a:hover {color:#63655D; text-decoration: none;}
+h1 a:active {color:#251D1F; text-decoration: none}
+
+html {
+  width:100%;
+  height:100%;
+  overflow:hidden;
+}
+
+body{
+	width: 100%;
+	margin:0 auto;
+	font-family: Regular, serif;
+	overflow: hidden;
+	/*background: url(../images/background.png);*/
+}
+
+p{
+	font-size: 10pt;
+	font-family: Cursiva;
+	/*line-height:0px;*/
+}
+
+h1{ 
+	font-family: Titulo;
+	font-weight: normal;
+	font-size: 40px;
+	color: #251D1F;
+}
+
+
+h2{
+	font-family: Regular;
+	font-weight: normal;
+	font-size: 12px;
+
+}
+
+h3{ 
+	font-family: NegritaCursiva;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 3px;
+}
+
+ul,li{
+	list-style: none;
+}
+
+
+/*INDEX***************************************************************/
+
+#ppal{
+	width: 741px;
+	height: 652px;
+	margin: 0 auto;
+	padding-top: 170px;
+	background: url(../i/index/morera.png) no-repeat;
+	text-align: center;
+}
+
+#ppal h1 {
+	margin-bottom: 8%;
+}
+
+#ppal h2 {
+	font-size: 15px;
+}
+
+/*MONICAYBORIS**********************************************************/
+
+/*general*/
+
+#container{
+	width: 741px;
+	height: 652px;
+	margin: 0 auto;
+	padding-top: 57px;
+	background: url(../i/index/background.png) no-repeat center top;
+	text-align: center;
+}
+
+#content{
+	width: 405px;
+	height: 308px;
+	margin: 0 auto;
+	background: url(../i/index/content_background.svg);
+	background-position: top center;
+	background-size: 405px 302px;
+	background-repeat: no-repeat;
+}
+
+#left{
+	width: 146px;
+	height: 302px;
+	float: left;
+}
+
+#right{
+	width: 259px;
+	height: 302px;
+	float: left;
+}
+
+#indexright{
+	width: 259px;
+	height: 302px;
+	float: left;
+}
+
+.textout{
+	text-indent: -9999px;
+}
+
+
+
+/* columna izquierda*/
+
+.dieciocho{
+	background-image: url(../i/index/18.svg);
+	background-size: 126px 81px;
+	background-repeat: no-repeat;
+	display: block;
+	height: 98px;
+	margin-bottom: 5px;
+}
+
+a:hover .dieciocho{
+	background-image: url(../i/index/18_hover.svg);
+	background-size: 126px 81px;
+	background-repeat: no-repeat;
+}
+
+.ermita{
+	background: url(../i/index/ermita.svg);
+	background-size: 125px 88px;
+	background-repeat: no-repeat;
+	display: block;
+	height: 93px;
+	margin-bottom: 15px;
+}
+
+a:hover .ermita{
+	background: url(../i/index/ermita_hover.svg);
+	background-size: 125px 88px;
+	background-repeat: no-repeat;
+}
+
+.fiesta{
+	background: url(../i/index/fiesta.svg);
+	background-size: 130px 53px;
+	background-repeat: no-repeat;
+	display: block;
+	height: 60px;
+}
+
+a:hover .fiesta{
+	background: url(../i/index/fiesta_hover.svg);
+	background-size: 130px 53px;
+	background-repeat: no-repeat;
+}
+
+/*columna derecha*/
+
+#top{
+	height: 76px;
+	width: 242px;
+	margin-left: 15px;
+}
+
+#ella{
+	width: 121px;
+	height: 76px;
+	margin-top: 15px;
+	background: url(../i/index/ella.svg);
+	background-position: center;
+	background-size: 63px 27px;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+a:hover #ella{
+	background: url(../i/index/ella_hover.svg);
+	background-position: center;
+	background-size: 63px 27px;
+	background-repeat: no-repeat;
+}
+
+#el{
+	width: 121px;
+	height: 76px;
+	margin-top: 15px;
+	background: url(../i/index/el.svg);
+	background-position: center;
+	background-size: 29px 27px;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+a:hover #el{
+	background: url(../i/index/el_hover.svg);
+	background-position: center;
+	background-size: 29px 27px;
+	background-repeat: no-repeat;
+
+}
+
+
+#libro{
+	width: 170px;
+	height: 35px;
+	margin-top: 33px;
+	margin-left: 93px;
+	background: url(../i/index/libro.svg);
+	background-size: 170px 30px;
+	background-repeat: no-repeat;
+}
+
+a:hover #libro{
+	background: url(../i/index/libro_hover.svg);
+	background-size: 170px 30px;
+	background-repeat: no-repeat;
+}
+
+#bottom{
+	height: 104px;
+	width: 242px;
+	margin-left: 16px;
+	margin-top: 16px;
+}
+
+#fotos{
+	width: 80px;
+	height: 104px;
+	background: url(../i/index/fotos.png) no-repeat center;
+	float: left;
+}
+
+a:hover #fotos{
+	background: url(../i/index/fotos_hover.png) no-repeat center;
+}
+
+#src{
+	width: 80px;
+	height: 104px;
+	background: url(../i/index/src.svg);
+	background-position: center;
+	background-size: 48px 21px;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+a:hover #src{
+	background: url(../i/index/src_hover.svg);
+	background-position: center;
+	background-size: 48px 21px;
+	background-repeat: no-repeat;
+}
+
+#lista{
+	width: 80px;
+	height: 104px;
+	background: url(../i/index/cuerno.svg);
+	background-position: right center;
+	background-size: 72px 52px;
+	background-repeat: no-repeat;
+	float: left;
+	margin-left: 2px;
+}
+
+a:hover #lista{
+	background: url(../i/index/cuerno_hover.svg);
+	background-position: right center;
+	background-size: 72px 52px;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#rrss{ 
+	color: #63655D;
+	display: block;
+	text-indent: -150px;
+	padding-top: 4px;
+}
+
+#contacto h2{
+	font-size: 12px;
+	line-height: 12px;
+	color: #BDC6A7;
+}
+
+
+/*18**************************************************************/
+
+#content2{
+	width: 405px;
+	height: 308px;
+	margin: 0 auto;
+	background: url(../i/content2_background.png);
+	
+}
+
+.dieciocho2{
+	background: url(../i/18.svg) no-repeat;
+	background-size: 126px 54px;
+	background-repeat: no-repeat;
+	display: block;
+	height: 98px;
+	margin-bottom: 5px;
+}
+
+.text{
+	text-align: right;
+	width: 225px;
+	height: 195px;
+	float: right;
+	padding-right:15px;
+	margin-top: 110px;
+	overflow: auto;
+	white-space: normal;
+}
+
+.arrow{
+	width: 42px;
+	height: 7px;
+	margin-top: 55px;
+	margin-left: auto;
+	margin-right: auto;
+	background: url(../i/index/flecha.svg);
+	background-position: center;
+	background-size: 42px 7px;
+	background-repeat: no-repeat;
+}
+
+a:hover .arrow{
+	background: url(../i/index/flecha_hover.svg);
+	background-position: center;
+	background-size: 42px 7px;
+	background-repeat: no-repeat;
+}
+
+
+/*CEREMONIA********************************************************/
+
+.ermita2{
+	height: 93px;
+	background: url(../i/index/ermita.svg);
+	background-size: 125px 88px;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: block;
+	margin-top: 103px;
+	margin-bottom: 30px;
+	text-align: center;
+	color: #3D3C3C;
+}
+
+.plano{
+	text-align: right;
+	width: 240px;
+	height: 302px;
+	float: right;
+	white-space: normal;
+}
+
+.plano img{
+	max-height: 302px;
+	max-width: auto;
+}
+
+
+/*CELEBRACIÓN********************************************************/
+
+.fiesta2{
+	background: url(../i/fiesta.svg);
+	background-size: 130px 41px;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: block;
+	height: 60px;
+	margin-top: 81px;
+}
+
+
+/*MÓNICA / BORIS********************************************************/
+
+#left img{
+	max-width: 123px;
+}
+
+.bomon{
+	padding-top: 150px;
+	display: block;
+}
+
+
+/*COMMENTS***************************************************************/
+
+.ec-total{
+	display: none;
+}
+
+.ec-comment-form{
+	margin-left: 0px;
+	padding-top: 20px;
+	padding-left: 0px;
+	width: 200px;
+	float: left;
+	/*position: fixed;*/
+}
+
+.ec-comment-list{
+	float:right;
+	width: 350px;
+	height: 308px;
+	overflow: auto;
+}
+
+fieldset{
+	border:none;
+	margin-left:0px;
+	padding-left:0px;
+}
+
+#id_of_your_comment_container{
+	margin:0 auto;
+	width:600px;
+	text-align: left;
+}
+
+
+
+/*ASISTENCIA***************************************************************/
+
+#form_container{
+	width:650px;
+	height:308px;
+	background:red;
+	font-size: 16px;
+	margin: 0 auto;
+	background: url(../i/content2_background.png) no-repeat center;
+}
+
+#formbloque1{
+	float: left;
+	width: 150px;
+	text-align: left;
+}
+
+#formbloque1 input{
+	
+	width: 200px;
+}
+
+#form_container form{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+
+form span h2{
+	margin-top: 10px;
+}
+
+#formbloque2{
+	width: 320px;
+	text-align: right;
+	float: right;
+}
+
+
+#asistencia ul li{
+	text-indent: 50px;
+	font-family: Cursiva;
+	font-size: 12px;
+}
+
+#alergiasvegetariano {
+	text-align: left;
+	clear: left;
+	padding-top: 1px;
+}
+
+.alergia textarea{
+	width: 320px;
+	height: 15px;
+}
+
+.buttons .button_text{
+	margin-top: 20px;
+	font-family: Regular;
+}
+
+.confirmacion{
+	width:618px;
+	height:258px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+
+.confirmacion h2{
+	font-size: 18px;
+	margin-top: 50px;
+}
+
+#asistencia span h2{
+	float: left;
+}
+
+#asistencia span input{
+	float: right;
+	margin-top: 15px;
+}
+
+.cuantos{
+	margin-top: -10px;
+}
+
+#nopersonas{
+	display: inline;
+	width: 300px;
+}
+
+#nopersonastxt{
+	width: 180px;
+  float: left;
+  margin-left: 94px;
+  margin-top: -12px;
+  text-align: left;
+}
+
+#nopersonasinput{
+	float: right;
+}
+
+.solobomon{
+	margin-top: 20px;
+}
+
+
+/*INDEXFOTOS***************************************************************/
+
+
+#instagallery{
+	width: 259px;
+	height: 302px;
+	float: left;
+}
+
+.insta{
+	background: url(../i/insta.svg);
+	background-position: left;
+	background-size: 130px 102px;
+	background-repeat: no-repeat;
+	display: block;
+	height: 132px;
+	margin-bottom: 5px;
+}
+
+#content3{
+	width: 405px;
+	height: 308px;
+	margin: 0 auto;
+	background: url(../i/content2_background.png) no-repeat;
+}
+
+.fotostxt{
+	width: 130px;
+}
+
+/*LISTA***************************************************************/
+
+.listatxt{
+	text-align: left;
+	width: 131px;
+	height: 308px;
+	margin-top: -10px;
+	padding-left: 5px;
+	padding-right:10px;
+	float: left;
+	overflow: auto;
+	white-space: normal;
+}
+
+.lista div{
+	display: block;
+	float: right;
+	margin-bottom: 6px;
+
+}
+
+.lista{
+	float: right;
+
+}
+
+.viaje {
+	width: 187px;
+	height: 87px;
+	background: url(../i/lista/viaje.svg);
+	background-size: 187px 86px;
+	background-repeat: no-repeat;
+}
+
+a:hover .viaje {
+	background: url(../i/lista/viaje_hover.svg);
+	background-size: 187px 86px;
+	background-repeat: no-repeat;
+}
+
+.barco {
+	width: 187px;
+	height: 109px;
+	background: url(../i/lista/barco.svg);
+	background-size: 185px 108px;
+	background-repeat: no-repeat;
+}
+
+a:hover .barco {
+	background: url(../i/lista/barco_hover.svg);
+	background-size: 185px 108px;
+	background-repeat: no-repeat;
+}
+
+.casa {
+	width: 187px;
+	height: 97px;
+	background: url(../i/lista/casa.svg);
+	background-size: 190px 95px;
+	background-repeat: no-repeat;
+}
+
+a:hover .casa {
+	background: url(../i/lista/casa_hover.svg);
+	background-size: 190px 95px;
+	background-repeat: no-repeat;
+}
+
+#leftlista{
+	width: 146px;
+	height: 302px;
+	float: left;
+}
+
+
+/*VIAJE/BARCO/CASA***************************************************************/
+
+.textlista{
+	text-align: right;
+	width: 225px;
+	height: 170px;
+	float: right;
+	padding-right:15px;
+	margin-top: 90px;
+	overflow: auto;
+	white-space: normal;
+}
+
+.regalar{
+	float: right;
+	width: 87px;
+	height: 25px;
+	background: url(../i/lista/regalar.svg);
+	background-size: 87px 25px;
+	background-repeat: no-repeat;
+	margin-top: 15px;
+	margin-right: 15px;
+}
+
+a:hover .regalar{
+	background: url(../i/lista/regalar_hover.svg);
+	background-size: 87px 25px;
+	background-repeat: no-repeat;
+}
+
+
+/************CHAPUCILLA*************/
+
+#chapucilla{
+	display: none;
+}
+
+
+/************MAITIA*************/
+
+.maitia{
+	width: 44px;
+	height: 10px;
+	float: left;
+	margin-top: -100px;
+	background: url(../i/maitia.svg);
+	background-size: 44px 10px;
+	background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+/***************************************************************************/
+/***************************************************************************/
+/***************************************************************************/
+/*RESPONSIVENESS************************************************************/
+
+
+@media only screen and (max-width: 741px) {	
+
+	/*INDEX***************************************************************/
+
+	body {
+		width: 100%;
+		margin:0 auto;
+	} 
+
+	#container{
+		max-width: 100%;
+		margin: 0 auto;
+	}
+
+	.confirmacion{
+		width:100%;
+		height:258px;
+		margin: 0 auto;
+		padding-top: 50px;
+	}
+
+		/*COMMENTS***************************************************************/
+
+
+	.ec-comment-form{
+		margin:0 auto;
+		padding-top: 20px;
+		padding-left: 0px;
+		width: 200px;
+		float: none;
+		clear: both;
+		/*position: fixed;*/
+	}
+
+	.ec-comment-list{
+		float:right;
+		width: 350px;
+		height: auto;
+		overflow-y: auto;
+		overflow-x: hidden;
+		text-align: center;
+	}
+
+	fieldset{
+		border:none;
+		margin-left:0px;
+		padding-left:0px;
+	}
+
+	#id_of_your_comment_container{
+		margin: 0 auto;
+		width:220px;
+		height:auto;
+		text-align: left;
+	}
+
+	#contentlibro{
+		width: 100%;
+		margin: 0 auto;
+		background: white;
+		height: 308px;
+		overflow: auto;
+		margin: 0 auto;
+		background: white;
+	}
+
+
+	/*ASISTENCIA***************************************************************/
+
+	#form_container{
+		width:100%;
+		height:308px;
+		font-size: 16px;
+		margin: 0 auto;
+		background: white;
+		text-align: center;
+		overflow-x: hidden;
+		overflow-y: auto;  
+	}
+
+	#formbloque1{
+		float: none;
+		clear: both;
+		width: 150px;
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	#formbloque1 input{
+		
+		width: 150px;
+	}
+
+	#form_container form{
+		margin: 0 auto;
+	}
+
+
+	form span h2{
+		margin-top: 10px;
+	}
+
+	#formbloque2{
+		width: 80%;
+		margin: 0px auto 30px auto;
+		text-align: center;
+		float: none;
+		clear: both;
+		border-top: 1px solid #c5c7b9;
+	}
+
+
+	#asistencia ul li{
+		text-indent: 0px;
+	}
+
+	#alergiasvegetariano {
+		text-align: left;
+		clear: left;
+		padding-top: 1px;
+	}
+
+	.alergia textarea{
+		width: 100%;
+		height: 50px;
+	}
+
+	.buttons .button_text{
+		margin-top: 20px;
+		font-family: Regular;
+	}
+
+	.confirmacion{
+		width:100%;
+		height:258px;
+		margin: 0 auto;
+		padding-top: 50px;
+		text-align: center;
+	}
+
+	.confirmacion h2{
+		font-size: 18px;
+		margin-top: 50px;
+	}
+
+	#asistencia span h2{
+		float: left;
+	}
+
+	#asistencia span input{
+		float: none;
+		margin-top: 01px;
+	}
+
+	.cuantos{
+		margin-top: -20px;
+	}
+
+
+
+}
+
+/************CHAPUCILLA*************/
+
+#chapucilla{
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 500px) {	
+
+	/*INDEX***************************************************************/
+
+	h1{
+		font-size: 30px;
+		line-height: 49px;
+	}
+
+	img{
+		max-width: 100%;
+	}
+	
+	/*INDEX***************************************************************/
+
+	#ppal{
+		
+		max-width: 100%;
+		overflow: hidden;
+		position: fixed;
+		height: 652px;
+		margin: 0 auto;
+		padding-top: 170px;
+		background: url(../i/index/morera.png) no-repeat center top;
+		text-align: center;
+	}
+
+	#container{
+		max-width: 100%;
+		margin: -60px auto 0 auto;
+		overflow: hidden;
+		position: fixed;
+		background: url(../i/index/background_dev.png) no-repeat center top;
+	}
+
+	#content{
+		background: white;
+		width: 100%;
+		margin: 40px auto;
+		max-height: 308px;
+		overflow-y: auto;
+		overflow-x: hidden;
+	}
+
+	#left{
+		width: 146px;
+		height: auto;
+		margin:0 auto;
+		float: none;
+		clear: both;
+	}
+
+	#right{
+		width: 100%;
+		height: auto;
+		margin:10px auto;
+		background: white;
+		float: none;
+		clear: both;
+	}
+
+	#indexright{
+		width: 259px;
+		height: auto;
+		margin:10px auto;
+		background: url(../i/index/content_right.svg);
+		background-size: 242px 265px;
+		background-repeat: no-repeat;
+		background-position: top center;
+		float: none;
+		clear: both;
+	}
+
+	#rrss{ 
+		color: #63655D;
+		display: block;
+		text-indent:0px;
+		margin-top: -15px;
+		padding-top: 4px;
+		border-top:1px solid #999;
+		border-bottom:1px solid #999;
+	}
+
+	/*#contacto h2{
+		width: 75%;
+		font-size: 12px;
+		line-height: 12px;
+		color: #BDC6A7;
+		margin: 10px auto;
+	}*/
+
+	#contacto h2{
+		display: none;
+	}
+
+	#bottom{
+	height: 104px;
+	width: 242px;
+	margin: 16px auto;
+	}
+
+	
+	#libro{
+		margin-left: 80px;
+		
+	}
+
+
+	/*18**************************************************************/
+
+	#content2{
+		width: 100%;
+		margin: 40px auto; 
+		background: white;
+		height: 308px;
+		overflow-y: auto;
+		overflow-x: hidden;
+	}
+
+	.dieciocho2{
+		display: block;
+		height: 98px;
+		margin-bottom: 5px;
+	}
+
+	.text{
+		text-align: center;
+		width: 75%;
+		height: auto;
+		float: none;
+		clear: both;
+		padding-right:0px;
+		margin: 10px auto;
+		overflow: hidden;
+		white-space: normal;
+	}
+
+	.arrow{
+		width: 42px;
+		height: 7px;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	/*CEREMONIA********************************************************/
+
+	.ermita2{
+		height: 93px;
+		display: block;
+		margin-top: 10px;
+		margin-bottom: 30px;
+		text-align: center;
+		color: #3D3C3C;
+	}
+
+	.plano{
+		text-align: center;
+		width: 100%;
+		height: auto;
+		float: none;
+		clear: both;
+		margin: 0 auto;
+		white-space: normal;
+	}
+
+	.plano img{
+	max-height: 302px;
+	max-width: auto;
+	margin: 0 auto;
+	}
+
+	/*CELEBRACIÓN********************************************************/
+
+	.fiesta2{
+		display: block;
+		height: 60px;
+		margin-top: -200px;
+	}
+
+	.fiestxt{
+		margin-top: 70px;
+	}
+
+	.planofiesta{
+		margin-top: 140px;
+	}
+
+
+	/*MÓNICA / BORIS********************************************************/
+
+	#left img{
+		max-width: 146px;
+	}
+
+	.bomon{
+		padding-top: 0px;
+		display: block;
+	}
+
+
+	/*COMMENTS***************************************************************/
+
+
+	.ec-comment-form{
+		margin:0 auto;
+		padding-top: 20px;
+		padding-left: 0px;
+		width: 200px;
+		float: none;
+		clear: both;
+		/*position: fixed;*/
+	}
+
+	.ec-comment-list{
+		float:right;
+		width: 350px;
+		height: auto;
+		overflow-y: auto;
+		overflow-x: hidden;
+		text-align: center;
+	}
+
+	fieldset{
+		border:none;
+		margin-left:0px;
+		padding-left:0px;
+	}
+
+	#id_of_your_comment_container{
+		margin: 0 auto;
+		width:250px;
+		height:auto;
+		text-align: left;
+	}
+
+	#contentlibro{
+		width: 100%;
+		margin: 0 auto;
+		background: white;
+		height: 328px;
+		overflow: auto;
+		margin: 0 auto;
+		background: white;
+	}
+
+
+	/*ASISTENCIA***************************************************************/
+
+	#form_container{
+		width:100%;
+		height:328px;
+		font-size: 16px;
+		margin: 0 auto;
+		background: white;
+		text-align: center;
+		overflow-x: hidden;
+		overflow-y: auto;  
+	}
+
+	#formbloque1{
+		float: none;
+		clear: both;
+		width: 150px;
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	#formbloque1 input{
+		
+		width: 150px;
+	}
+
+	#form_container form{
+		margin: 0 auto;
+
+	}
+
+
+	form span h2{
+		margin-top: 10px;
+	}
+
+	#formbloque2{
+		width: 80%;
+		margin: 0px auto 30px auto;
+		text-align: center;
+		float: none;
+		clear: both;
+		border-top: 1px solid #c5c7b9;
+	}
+
+
+	#asistencia ul li{
+		text-indent: 0px;
+	}
+
+	#alergiasvegetariano {
+		text-align: center;
+		clear: left;
+		padding-top: 1px;
+	}
+
+	.alergia textarea{
+		width: 100%;
+		height: 50px;
+	}
+
+	.buttons .button_text{
+		margin-top: 20px;
+		font-family: Regular;
+	}
+
+	.confirmacion{
+		width:80%;
+		height:278px;
+		margin: 0 auto;
+		padding-top: 50px;
+		text-align: center;
+	}
+
+	.confirmacion h2{
+		font-size: 18px;
+		margin-top: 50px;
+	}
+
+	#asistencia span h2{
+		float: left;
+	}
+
+	#asistencia span input{
+		float: none;
+		margin-top: 01px;
+	}
+
+	.cuantos{
+		margin-top: -20px;
+	}
+
+	#nopersonas{
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+	}
+
+	#nopersonastxt{
+		width: auto;
+	  float: none;
+	  margin:0 auto;
+	  text-align: center;
+	}
+
+	#nopersonasinput{
+		float: none;
+		display: block;
+	}
+
+	.solobomon{
+		margin-top: 20px;
+	}
+
+
+
+
+	/*INDEXFOTOS***************************************************************/
+
+
+	#instagallery{
+		width: 100%;
+		height: 302px;
+		float: none;
+		margin: -630px auto 0 auto;
+		text-align: center;
+	}
+
+	.insta{
+		display: block;
+		height: 132px;
+		margin-top: 330px;
+	}
+
+	#content3{
+		width: 100%;
+		margin: 0 auto;
+		background: white;
+		height: 328px;
+		overflow-y: auto;
+		overflow-x: hidden;
+	}
+
+
+	/*LISTA***************************************************************/
+
+	#leftlista{
+	width: 80%;
+	height: auto;
+	float: none;
+	margin: 0 auto;
+	}
+
+	.listatxt{
+		text-align: center;
+		width: 100%;
+		height: auto;
+		margin:10px auto;
+		padding-left: 0px;
+		padding-right:0px;
+		float: none;
+		overflow: hidden;
+		white-space: normal;
+
+		border-bottom: 1px solid #c5c7b9;
+	}
+
+	.lista div{
+		display: block;
+		float: none;
+		margin-bottom: 6px;
+		clear: both;
+
+
+	}
+
+	.lista{
+		float: none;
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+
+	}
+
+	.viaje {
+		width: 187px;
+		height: 87px;
+		margin: 0 auto;
+	}
+
+
+	.barco {
+		width: 187px;
+		height: 109px;
+		margin: 0 auto;
+	}
+
+
+	.casa {
+		width: 187px;
+		height: 97px;
+		margin: 0 auto;
+	}
+
+
+
+	/*VIAJE/BARCO/CASA***************************************************************/
+
+	.textlista{
+		text-align: center;
+		width: 80%;
+		height: auto;
+		float: none;
+		padding-right:0;
+		margin: 0 auto;
+		overflow: hidden;
+		white-space: normal;
+	}
+
+	.regalar{
+		float: none;
+		width: 87px;
+		height: 25px;
+		background: url(../i/lista/regalar.png);
+		margin: 0 auto;
+	}
+
+	a:hover .regalar{
+		background: url(../i/lista/regalar_hover.png);
+	}
+
+
+	/************CHAPUCILLA*************/
+
+	#chapucilla{
+		display: none;
+	}
+
+	.arrowdev{
+	width: 42px;
+	height: 7px;
+	margin-left: auto;
+	margin-right: auto;
+	background: url(../i/index/flecha.svg);
+	background-position: center;
+	background-size: 42px 7px;
+	background-repeat: no-repeat;
+	}
+
+	a:hover .arrowdev{
+		background: url(../i/index/flecha_hover.svg);
+		background-position: center;
+		background-size: 42px 7px;
+		background-repeat: no-repeat;
+	}
+	
+
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-height: 449px) {	
+
+	/************CHAPUCILLA*************/
+
+	#chapucilla{
+		display: block;
+	}
+}
+
+
+
+
+
+
+
+
+

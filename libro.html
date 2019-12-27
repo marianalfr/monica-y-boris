@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mónica & Boris · Libro de Visitas</title>
+	<link rel="stylesheet" type="text/css" href="c/style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=9" />
+    <script type="text/javascript" 
+            src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+             <script src="j/fading.js"></script>
+    <script type="text/javascript" 
+            src="easy-comment/jquery.easy-comment.js"></script>
+   
+    <script type="text/javascript">
+    jQuery(document).ready(function(){
+    // Your other javascript code if any
+
+    $("#id_of_your_comment_container").EasyComment({
+      path:"easy-comment/", //Change it to the folder where you put the easycomment files
+      moderate:false,
+      maxReply:0,
+      countPerPage:0,
+    });
+    // Your other javascript code if any
+    });
+    </script>
+
+    <script src="j/scroll/jquery.nicescroll.min.js"></script>
+    <script>
+      $(document).ready(function() {
+      
+        var nicesx = $("#id_of_your_comment_container").niceScroll({touchbehavior:false,cursorcolor:"#BDC6A7",cursoropacitymax:0.6,cursorwidth:4});
+        
+      });
+
+      $(document).ready(function() {
+      
+        var nicesx = $(".ec-comment-list").niceScroll({touchbehavior:false,cursorcolor:"#BDC6A7",cursoropacitymax:0.6,cursorwidth:4});
+        
+      });
+      
+    </script>
+
+
+  </head>
+
+
+  <body>
+
+  		<div id="container">
+			<h1><a href="monicayboris.html" class="transition">MÓNICA & BORIS</a></h1>
+			<div id="contentlibro">
+			
+			<div id="id_of_your_comment_container"></div>	
+
+			</div>
+
+      <div id="chapucilla">
+            <br>
+            <a href="monicayboris.html" class="transition"><div class="arrowdev textout">back</div></a>
+            <br>
+            <br>
+            <br>
+      </div>
+
+			<a href="monicayboris.html" class="transition"><div class="arrow textout">back</div></a>
+
+		</div>
+
+
+
+    
+  </body>
+</html> 
+ 
